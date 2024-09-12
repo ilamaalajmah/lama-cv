@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    font-family: Arial, sans-serif;
+   display: flex;
+   margin: 50px auto;
+   max-width: 1200px;
+   padding: 20px;
+}
+.profile h2{
+    padding-bottom: 10px;
+}
+#profile{
+    padding-top: 20px;
+}
+.parent-con hr{
+   border: none;
+   border-top: 2px solid #ffffff;                 
+   margin-left: 0;
+}
+#number{
+    padding-top: 10px;
+}
+.parent-con .info-details h2{
+   padding-top: 40px;
+}
+.reference {
+   display: inline-block;
+}
+.parent-con {
+    background-color: #163853;
+    padding: 75px;
+    color: white;
+ }
+ .parent-con ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position:inside;
+ }
+ 
+.logo img{
+    border-radius: 50%;
+    width: 200px;
+ }
+ 
+ .content{
+    padding-left: 40px;
+    color: #6a666e;
+ }
+.depart{
+    padding-bottom: 10px;
+}
+.estelle-darcy{
+    padding-top: 10px;
+}
+.harper-richard{
+    padding-top: 10px;
+}
+.parent-con h2{
+   padding-top: 20px;
+}
+.range{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.content h2{
+   padding-top: 40px;
+   color: #163853;
+}
+
+.content .profile p{
+    width: 70%;
+    color: #929093;
+ 
+ }
+ .flname h2{
+    color: #545454;
+    font-size: 50px;
+ }
+ 
+.content hr{
+   border: none;
+   border-top: 2px solid #1c394d; 
+   width: 80%;                 
+   margin-left: 0;
+}
+.content .profile h2{
+   padding-top: 50px;
+}
+
+.content .flname span{
+   color: #163853;
+   font-weight:300;
+}
+
+
+.content .flname p{
+   color: #545454;
+   font-size:large;
+}
+
+.reference .reference-container ul{
+    list-style: none;
+ }
+ 
+ .reference .reference-container .harper-richard{
+    margin-left: 130px;
+ }
+ 
+.content .flname hr{
+   border: none;
+   border-top: 6px solid #163853; 
+   width: 9%;                 
+   margin-left: 0;
+}
+
+.reference .reference-container{
+    display: flex;
+ }
+ 
+.content .wexper .experience li{
+   width: 70%;
+}
+.content .wexper .experience ul{
+   margin-left: 0;
+   padding-left: 0;
+   list-style-position:inside;
+}
+
+@media (max-width: 600px) {
+   .parent {
+       flex-direction: column;
+   }
+   .parent-con, .content {
+       flex: 1 1 100%;
+   }
+   .reference .reference-container {
+       display: block;
+   }
+
+   .reference .reference-container ul {
+       margin-bottom: 20px;
+       text-align: center;
+   }
+
+   .reference .reference-container .harper-richard {
+       margin-left: 0;
+   }
+}
