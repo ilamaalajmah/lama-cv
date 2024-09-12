@@ -285,3 +285,10 @@ document.getElementById("name").onmouseover = function() {
 document.getElementById("name").onmouseout = function() {
     this.innerHTML = "RICHARD <span>SANCHEZ</span>"; 
 };
+
+document.getElementById("depart").onmouseover = function() {
+    this.innerHTML = "Web Developer"; 
+};
+document.getElementById("depart").onmouseout = function() {
+    this.innerHTML = "MARKETING MANAGER"; 
+};
